@@ -4,7 +4,7 @@ fn main() {
     let mut names = map.keys().collect::<Vec<_>>();
     names.sort();
     for name in &names {
-        let name: &str = &name;
+        let name: &str = name;
         let network = &map[name];
         let rx_packets = network.total_packets_received();
         let rx_bytes = network.total_received();
