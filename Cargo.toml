@@ -6,4 +6,4 @@ edition = "2021"
 
 [dependencies]
 humansize = "2"
-sysinfo = { version = "0.30", default-features = false }
+sysinfo = { version = "0.32", default-features = false }
